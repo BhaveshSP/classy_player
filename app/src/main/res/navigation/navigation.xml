@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/navVideos"
+    >
+    <fragment android:id="@+id/navVideos"
+        android:name="com.bhaveshsp.classyplayer.fragments.VideosFragment"
+        android:label="@string/videos"
+        tools:layout="@layout/fragment_videos"
+        />
+    <fragment android:id="@+id/navMusic"
+        android:name="com.bhaveshsp.classyplayer.fragments.MusicFragment"
+        android:label="@string/music"
+        tools:layout="@layout/fragment_music"
+        />
+
+</navigation>

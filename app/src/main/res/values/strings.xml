@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Classy Player</string>
+    <string name="app_name_short">Classy</string>
+    <string name="app_tag_line">Simple Yet Classy</string>
+    <string name="nav_close">Close</string>
+    <string name="nav_open">Open</string>
+    <string name="videos">Videos</string>
+    <string name="music">Music</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
