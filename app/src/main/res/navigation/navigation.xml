@@ -3,14 +3,14 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/navigation"
-    app:startDestination="@id/navVideos"
+    app:startDestination="@id/nav_videos"
     >
-    <fragment android:id="@+id/navVideos"
+    <fragment android:id="@+id/nav_videos"
         android:name="com.bhaveshsp.classyplayer.fragments.VideosFragment"
         android:label="@string/videos"
         tools:layout="@layout/fragment_videos"
         />
-    <fragment android:id="@+id/navMusic"
+    <fragment android:id="@+id/nav_music"
         android:name="com.bhaveshsp.classyplayer.fragments.MusicFragment"
         android:label="@string/music"
         tools:layout="@layout/fragment_music"
